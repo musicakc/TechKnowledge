@@ -16,7 +16,7 @@ A guide for the technical (non-coding) questions commonly asked during software 
 * **Difference between ordered_set and set** :
 
 ## Databases
-* **Database index** :
+* **Database index** : Indexing is a way of sorting a number of records by creating another data structure that holds the field value and pointer to the record it relates to. The disadavantage of using indexes is that it requires extra disk space
 * **Data warehousing** :
 
 ## Operating Systems
