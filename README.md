@@ -1,5 +1,5 @@
 # TechKnowledge
-A guide for the technical (non-coding) questions commonly asked during software engineering interviews
+A guide for the technical (non-coding) questions commonly asked during software engineering interviews with brief answers to each concept.
 
 ## OOPS Concepts
 * **Overloading vs Overriding** : Overloading is the concept where 2 methods have the same name but different parameters. Overriding is the concept where 2 methods have the same name and the same parameters. (one method would be in parent class and the other in child class)
@@ -17,7 +17,7 @@ A guide for the technical (non-coding) questions commonly asked during software 
 
 ## Databases
 * **Database index** : Indexing is a way of sorting a number of records by creating another data structure that holds the field value and pointer to the record it relates to. The disadavantage of using indexes is that it requires extra disk space
-* **Data warehousing** :
+* **Data warehousing** : Aggregation of data from multiple sources to make a central repository of information that can be analysed to make informed decisions or for other purposes of data usage by an organisation. 
 
 ## Operating Systems
 * **Mutex** :  
@@ -27,4 +27,5 @@ A guide for the technical (non-coding) questions commonly asked during software 
 
 
 ## Others
-* **Microservices** :
+* **Microservices** : Microservices enable continuous deployment of large/complex applications, with the ability to change or evolve tech stack on which the application is built. (In simpler words, the ability to build an application by breaking it down to multiple components, where each component can be individually deployed and maintained).
+This makes applications easier to understand and maintain.
