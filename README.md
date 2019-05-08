@@ -8,6 +8,12 @@ A guide for the technical (non-coding) questions commonly asked during software 
 
 * **Polymorphism** : The ability of an object to vary it's behaviour based on its type i.e. allows you to handle different data types/objects through the same interface. (Concept similar to overriding)
 
+* **Encapsulation** : Restrict access to data or methods (public,private,protected) and bundling of data and methods together is known as encapsulation.
+
+* **Inheritance** : Purpose is code reuse where any class can be written based on another class and use its data and methods.
+
+* **Abstraction** : based on building a model of a method/class. Requires minimal knowledge of implementation details like methods of the class or parameters of the method to trigger a specific operation.
+
 ## C/C++ specific questions
 * **Size of data types** : *char* - 1 byte, *int* - 2 bytes *float* - 4 bytes, *double* - 8 bytes
 
