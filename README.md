@@ -8,6 +8,9 @@ A guide for the technical (non-coding) questions commonly asked during software 
 
 * **Pure Virtual Functions** : A pure virtual function doesn't have an implementation, just a declaration. Example: virtial void show() = 0;
 
+* **Virtual vs Abstract Functions**
+Virtual functions have an implementation whereas abstract functions don't in the base class.
+
 * **Polymorphism** : The ability of an object to vary it's behaviour based on its type i.e. allows you to handle different data types/objects through the same interface. (Concept similar to overriding)
 
 * **Encapsulation** : Restrict access to data or methods (public,private,protected) and bundling of data and methods together is known as encapsulation.
