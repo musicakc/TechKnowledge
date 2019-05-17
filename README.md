@@ -6,7 +6,7 @@ A guide for the technical (non-coding) questions commonly asked during software 
 
 * **Virtual Functions** : A function declared in base class but defined in derived class (overriding), use a pointer/reference to base class to call the derived class's version. It must be declared in public. [Runtime Polymorphism]
 
-* **Pure Virtual Functions** : A pure virtual function doesn't have an implementation, just a declaration. Example: virtial void show() = 0;
+* **Pure Virtual Functions** : A pure virtual function doesn't have an implementation, just a declaration. Example: virtual void show() = 0;
 
 * **Virtual vs Abstract Functions**
 Virtual functions have an implementation whereas abstract functions don't in the base class.
