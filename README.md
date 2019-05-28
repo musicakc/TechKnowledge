@@ -19,6 +19,10 @@ Virtual functions have an implementation whereas abstract functions don't in the
 
 * **Abstraction** : based on building a model of a method/class. Requires minimal knowledge of implementation details like methods of the class or parameters of the method to trigger a specific operation.
 
+* **Static Functions**: They are global to a particular file and can be called anywhere in that particular file.
+
+* **Static Variables**: To modify a variable outside a function's scope we declare it static. 
+
 ## C/C++ specific questions
 * **Size of data types** : *char* - 1 byte, *int* - 2 bytes *float* - 4 bytes, *double* - 8 bytes
 
