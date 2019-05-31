@@ -2,7 +2,7 @@
 A guide for the technical (non-coding) questions commonly asked during software engineering interviews with brief answers to each concept.
 
 ## OOPS Concepts
-* **Overloading vs Overriding** : Overloading is the concept where 2 methods have the same name but different parameters. Overriding is the concept where 2 methods have the same name and the same parameters. (one method would be in parent class and the other in child class)
+* **Overloading vs Overriding** : Overloading is the concept where 2 methods have the same name but different parameters. Overriding is the concept where 2 methods have the same name and the same parameters. (one method would be in parent class and the other in child class) Overloading is compile time whereas overriding is runtime polymorphism.
 
 * **Virtual Functions** : A function declared in base class but defined in derived class (overriding), use a pointer/reference to base class to call the derived class's version. It must be declared in public. [Runtime Polymorphism]
 
@@ -11,7 +11,7 @@ A guide for the technical (non-coding) questions commonly asked during software 
 * **Virtual vs Abstract Functions**
 Virtual functions have an implementation whereas abstract functions don't in the base class.
 
-* **Polymorphism** : The ability of an object to vary it's behaviour based on its type i.e. allows you to handle different data types/objects through the same interface. (Concept similar to overriding)
+* **Polymorphism** : The ability of an object to vary it's behaviour based on its type i.e. allows you to handle different data types/objects through the same interface. (2 types - Compile time and runtime polymorphism)
 
 * **Encapsulation** : Restrict access to data or methods (public,private,protected) and bundling of data and methods together is known as encapsulation.
 
