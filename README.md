@@ -38,15 +38,15 @@ Virtual functions have an implementation whereas abstract functions don't in the
 * **Data warehousing** : Aggregation of data from multiple sources to make a central repository of information that can be analysed to make informed decisions or for other purposes of data usage by an organisation. 
 
 ## Operating Systems
-* **Concurrency** : Interleaving of processes (think of it as several instruction sequences executing) to give appearance of simultaneous execution
-*Problems*
-- sharing global resources
-- optimal allocation of resources
-- locating programming errors that may be causing issues in sharing said resources.
-*Semaphores & Monitors*
-*Deadlock*
-*Resource Starvation*
-*Race Condition*
+* **Concurrency** : Interleaving of processes (think of it as several instruction sequences executing) to give appearance of simultaneous execution  
+*Problems*  
+1. sharing global resources  
+2. optimal allocation of resources  
+3. locating programming errors that may be causing issues in sharing said resources.  
+*Semaphores & Monitors*  
+*Deadlock*  
+*Resource Starvation*  
+*Race Condition*  
 
 Example: 2 processes `P1` and `P2` execute code at the same time and share a variable `x` that they modify, so only 1 process can access `x` at one time, this code being known as *critical section* and this execution of process one at a time being known as **_mutual exclusion_**
 
