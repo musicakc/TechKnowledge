@@ -25,6 +25,9 @@ Virtual functions have an implementation whereas abstract functions don't in the
 
 ## C/C++ specific questions
 * **Size of data types** : *char* - 1 byte, *int* - 2 bytes *float* - 4 bytes, *double* - 8 bytes
+* **New Features in C++11/C++14/C++17** :
+* **shared pointers** :
+* **const char pointers** :
 
 ## Data Structures
 * **Difference between ordered_map and map** :
@@ -35,6 +38,18 @@ Virtual functions have an implementation whereas abstract functions don't in the
 * **Data warehousing** : Aggregation of data from multiple sources to make a central repository of information that can be analysed to make informed decisions or for other purposes of data usage by an organisation. 
 
 ## Operating Systems
+* **Concurrency** : Interleaving of processes (think of it as several instruction sequences executing) to give appearance of simultaneous execution
+*Problems*
+- sharing global resources
+- optimal allocation of resources
+- locating programming errors that may be causing issues in sharing said resources.
+*Semaphores & Monitors*
+*Deadlock*
+*Resource Starvation*
+*Race Condition*
+
+Example: 2 processes `P1` and `P2` execute code at the same time and share a variable `x` that they modify, so only 1 process can access `x` at one time, this code being known as *critical section* and this execution of process one at a time being known as **_mutual exclusion_**
+
 * **Mutex** :  
 * **Condition Variable** :
 * **Threads vs Process** :
@@ -44,3 +59,6 @@ Virtual functions have an implementation whereas abstract functions don't in the
 ## Others
 * **Microservices** : Microservices enable continuous deployment of large/complex applications, with the ability to change or evolve tech stack on which the application is built. (In simpler words, the ability to build an application by breaking it down to multiple components, where each component can be individually deployed and maintained).
 This makes applications easier to understand and maintain.
+
+## Design Patterns
+* **Model View Controllers** :
