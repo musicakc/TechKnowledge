@@ -39,10 +39,12 @@ Virtual functions have an implementation whereas abstract functions don't in the
 
 ## Operating Systems
 * **Concurrency** : Interleaving of processes (think of it as several instruction sequences executing) to give appearance of simultaneous execution  
-*Problems*  
+
+*Problems*
 1. sharing global resources  
 2. optimal allocation of resources  
 3. locating programming errors that may be causing issues in sharing said resources.  
+
 *Semaphores & Monitors*  
 *Deadlock*  
 *Resource Starvation*  
